@@ -1,12 +1,12 @@
 let card1 = document.querySelector(".card-1");
 
 const products = [
-    card1.innerHTML  = `
-    ${{
+
+    laptop : {
         name: "Laptop",
         price: 999.99,
         description: "Powerful laptop for all your computing needs."
-    }}`,
+    },
     {
         name: "Headphones",
         price: 79.99,
