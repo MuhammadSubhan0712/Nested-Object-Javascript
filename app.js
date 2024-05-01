@@ -105,3 +105,4 @@ const products = [
         description: "Fast and reliable internet connection for your home network."
     }
 ];
+console.log(products);
