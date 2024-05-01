@@ -2,7 +2,7 @@ let card1 = document.querySelector(".card-1");
 
 const products = [
 
-    laptop : {
+   {
         name: "Laptop",
         price: 999.99,
         description: "Powerful laptop for all your computing needs."
