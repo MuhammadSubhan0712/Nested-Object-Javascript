@@ -23,7 +23,7 @@ const products = [
         name: "Tablet",
         price: 449.99,
         description: "Portable tablet for entertainment and productivity.",
-        img: "https://images.pexels.com/photos/221185/pexels-photo-221185.jpeg?cs=srgb&dl=pexels-pixabay-221185.jpg&fm=jpg"
+        img: "https://www.androidauthority.com/wp-content/uploads/2021/03/Lenovo-Smart-Tab-M10-HD-with-smart-dock.jpg"
     },
     {
         name: "Smartwatch",
@@ -41,13 +41,13 @@ const products = [
         name: "Camera",
         price: 599.99,
         description: "Capture life's moments with stunning clarity and detail.",
-        img: "https://play-lh.googleusercontent.com/sqiNB2XdmvHJWcmbhsf6DcCZiTNayIvEeGjDkcmO6v9nlKFsITjnaBfC1wwZ6onLQQ"
+        img: "https://img.freepik.com/premium-photo/professional-camera-white-background_488220-1465.jpg"
     },
     {
         name: "Wireless Speaker",
         price: 129.99,
         description: "Enjoy your favorite music wirelessly with this speaker.",
-        img: "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZXRvb3RoJTIwc3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D"
+        img: "https://image.made-in-china.com/202f0j00EGaYNtznOeqj/Bluetooth-Speaker-Wireless-Stereo-Mini-Portable-MP3-Player-Pocket-Audio-Support-Handsfree-TF-Card-Auxhd.webp"
     },
     {
         name: "External Hard Drive",
