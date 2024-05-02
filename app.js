@@ -17,7 +17,7 @@ const products = [
         name: "Smartphone",
         price: 699.99,
         description: "Advanced smartphone with cutting-edge features.",
-        img: "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8fDA%3D"
+        img: "https://c4.wallpaperflare.com/wallpaper/953/97/219/samsung-galaxy-f-foldable-smartphone-hd-wallpaper-preview.jpg"
     },
     {
         name: "Tablet",
@@ -113,7 +113,7 @@ const products = [
         name: "Computer Mousepad",
         price: 9.99,
         description: "Enhance your mouse precision with this smooth pad.",
-        img: "https://ae01.alicdn.com/kf/S563dd2f7858944bc8d96926b21a4a011f.jpg_640x640Q90.jpg_.webp"
+        img: "https://c1.wallpaperflare.com/preview/261/791/724/computer-mouse-computer-input-device-mouse-pad.jpg"
     },
     {
         name: "Graphic Tablet",
@@ -131,8 +131,10 @@ const products = [
 
 
 const card = document.querySelector(".card-content");
+
+window.addEventListener("DOMContentLoaded" , function(){
 const showinHTML = products.map((project , index) => {
-    return ` 
+    return` 
     <div class="card-container">
     <div class="card">
     <img src="${project.img}" alt="">
@@ -145,7 +147,7 @@ const showinHTML = products.map((project , index) => {
     </div>
     </div>
     </div>
-    `
-}) 
-
+ `
+})
 card.innerHTML = showinHTML;
+})
