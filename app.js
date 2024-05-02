@@ -111,12 +111,11 @@ const products = [
 
 const card = document.querySelector(".card-content");
 const showinHTML = products.map((project , index) => {
-    return 
-    ` 
+    return ` 
     <div class="cards-1">
     <div class="card-content">
-    <img src="" alt="laptop">
-    <p>${project.name} , ${project.price},${project.description} </p>
+    <img src="" alt="">
+    <p>${project.name} <br> ${project.price} <br> ${project.description} </p>
     </div>
     </div>
     `
