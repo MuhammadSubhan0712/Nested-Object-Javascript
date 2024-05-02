@@ -1,4 +1,3 @@
-let card1 = document.querySelector(".card-1");
 
 const products = [
 
@@ -108,3 +107,6 @@ const products = [
         description: "Fast and reliable internet connection for your home network."
     }
 ];
+
+
+let card1 = document.querySelector(".card-1");
