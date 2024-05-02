@@ -51,9 +51,16 @@ h1{
 .card-content .btn{
     display: inline-block;
     padding: 8px 16px;
-    background-color: rgb(255, 199, 126);
+    background-color: rgb(77, 43, 0);
     text-decoration: none;
     border-radius: 4px;
     margin-top: 16px;
     color: #fff;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+    font-family: 'Georgia';
+}
+.btn:hover{
+    transition: 0.3s ease-in-out;
+    color: yellowgreen;
 }

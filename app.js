@@ -139,6 +139,9 @@ const showinHTML = products.map((project , index) => {
     <div class="card-content">
     <h3> ${project.name}  </h3>
     <p> <b> Price:</b>  ${project.price} <br> <b> Description:</b> ${project.description} </p>
+    <button class="btn">
+    Visit
+   </button>
     </div>
     </div>
     </div>
