@@ -1,22 +1,25 @@
 *{
-    margin: 0;
+    /* margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; */
     font-family: sans-serif;
 }
 body{
     background-color: #443a3a;
 }
+span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 h1{
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
 }
 .card-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin-top: 100px;
 }

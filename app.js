@@ -138,7 +138,7 @@ const showinHTML = products.map((project , index) => {
     <img src="${project.img}" alt="">
     <div class="card-content">
     <h3> ${project.name}  </h3>
-    <p> Name:  ${project.price} <br> Description: ${project.description} </p>
+    <p> <b> Price:</b>  ${project.price} <br> <b> Description:</b> ${project.description} </p>
     </div>
     </div>
     </div>
