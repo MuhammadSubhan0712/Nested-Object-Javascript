@@ -130,7 +130,7 @@ const products = [
 ];
 
 
-const card = document.querySelector(".card-content");
+const card = document.querySelector(".card-container");
 
 window.addEventListener("DOMContentLoaded" , function(){
 const showinHTML = products.map((project , index) => {
