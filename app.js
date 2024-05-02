@@ -59,7 +59,7 @@ const products = [
         name: "Wireless Mouse",
         price: 29.99,
         description: "Navigate your computer with precision and comfort.",
-        img: "https://w0.peakpx.com/wallpaper/477/663/HD-wallpaper-gaming-magic-mouse-computer-nice-gaming-mouse-thumbnail.jpg"
+        img: "https://cdn.pixabay.com/photo/2012/03/01/01/33/mouse-20223_640.jpg"
     },
     {
         name: "Printer",
