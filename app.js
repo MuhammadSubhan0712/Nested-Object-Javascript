@@ -109,4 +109,17 @@ const products = [
 ];
 
 
-let card1 = document.querySelector(".card-1");
+const card = document.querySelector(".card-content");
+const showinHTML = products.map((project , index) => {
+    return 
+    ` 
+    <div class="cards-1">
+    <div class="card-content">
+    <img src="" alt="laptop">
+    <p>${project.name} , ${project.price},${project.description} </p>
+    </div>
+    </div>
+    `
+}) 
+
+card.innerHTML = showinHTML;
