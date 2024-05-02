@@ -5,7 +5,7 @@ const products = [
         name: "Laptop",
         price: 999.99,
         description: "Powerful laptop for all your computing needs.",
-        img: "https://wallpapers.com/images/featured/laptop-murjp1nk4lp1idlt.jpg"
+        img: "https://wallpapers.com/images/featured/laptop-pictures-2l1fs0hwq4c9obgx.jpg"
     },
     {
         name: "Headphones",
