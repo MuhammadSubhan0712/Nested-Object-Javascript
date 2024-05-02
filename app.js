@@ -41,13 +41,13 @@ const products = [
         name: "Camera",
         price: 599.99,
         description: "Capture life's moments with stunning clarity and detail.",
-        img: "https://img.freepik.com/premium-photo/professional-camera-white-background_488220-1465.jpg"
+        img: "https://t3.ftcdn.net/jpg/00/52/45/32/360_F_52453293_qGCRFdf6nEkCLjBuRIHQIQMOOaYmgNpN.jpg"
     },
     {
         name: "Wireless Speaker",
         price: 129.99,
         description: "Enjoy your favorite music wirelessly with this speaker.",
-        img: "https://image.made-in-china.com/202f0j00EGaYNtznOeqj/Bluetooth-Speaker-Wireless-Stereo-Mini-Portable-MP3-Player-Pocket-Audio-Support-Handsfree-TF-Card-Auxhd.webp"
+        img: "https://images.unsplash.com/photo-1589003077984-894e133dabab?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZXRvb3RoJTIwc3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
         name: "External Hard Drive",
@@ -107,7 +107,7 @@ const products = [
         name: "Keyboard",
         price: 49.99,
         description: "Type comfortably with this reliable keyboard.",
-        img: "https://m.media-amazon.com/images/I/81SLAR9MnxS._AC_UF1000,1000_QL80_.jpg"
+        img: "https://w0.peakpx.com/wallpaper/998/22/HD-wallpaper-keyboard-gamer-colors-gamer-keyboard-keyboard-gamer-neon-thumbnail.jpg"
     },
     {
         name: "Computer Mousepad",

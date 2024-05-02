@@ -9,7 +9,7 @@ body{
 }
 span{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(129, 131, 0);
+    color: rgb(251, 255, 0);
     font-size: 36px;
     margin-bottom: 20px;
 }
@@ -18,7 +18,7 @@ h1{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: rgb(192, 157, 0);
+    color: rgb(255, 210, 12);
     font-size: 36px;
     margin-bottom: 20px;
 }
@@ -68,9 +68,10 @@ h1{
 .btn:hover{
     transition: 0.3s ease-in-out;
     color: yellowgreen;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 768px) {
     h1{
         font-size: 24px;
     }
