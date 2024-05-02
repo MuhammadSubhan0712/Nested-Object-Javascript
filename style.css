@@ -5,12 +5,12 @@
     font-family: sans-serif;
 }
 body{
-    background-color: #f0f0f0;
+    background-color: #443a3a;
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: blue;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
 }
