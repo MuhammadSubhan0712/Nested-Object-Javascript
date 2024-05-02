@@ -136,14 +136,14 @@ const card = document.querySelector(".card-container");
 
 // Event Listener Function
 window.addEventListener("DOMContentLoaded", function () {
-  const showinHTML = products.map((project, index) => {
+  const display = products.map((product, index) => {
     return ` 
     <div class="card-container">
     <div class="card">
-    <img src="${project.img}" alt="">
+    <img src="${product.img}" alt="">
     <div class="card-content">
-    <h3> ${project.name}  </h3>
-    <p> <b> Price:</b>  ${project.price} <br> <b> Description:</b> ${project.description} </p>
+    <h3> ${product.name}  </h3>
+    <p> <b> Price:</b>  ${product.price} <br> <b> Description:</b> ${product.description} </p>
     <button class="btn">
     Visit
    </button>
@@ -152,5 +152,5 @@ window.addEventListener("DOMContentLoaded", function () {
     </div>
  `;
   });
-  card.innerHTML = showinHTML;
+  card.innerHTML = display;
 });
