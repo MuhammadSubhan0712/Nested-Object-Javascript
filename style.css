@@ -1,7 +1,7 @@
 *{
-    /* margin: 0;
+    margin: 0;
     padding: 0;
-    box-sizing: border-box; */
+    box-sizing: border-box;
     font-family: sans-serif;
 }
 body{
@@ -9,12 +9,13 @@ body{
 }
 span{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(129, 131, 0);
 }
 h1{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(192, 157, 0);
 }
 .card-container{
     display: flex;
