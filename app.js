@@ -117,7 +117,7 @@ const products = [
       name: "Keyboard",
       price: 49.99,
       description: "Type comfortably with this reliable keyboard.",
-  img: "https://w0.peakpx.com/wallpaper/998/22/HD-wallpaper-keyboard-gamer-colors-gamer-keyboard-keyboard-gamer-neon-thumbnail.jpg"
+  img: "https://img.lovepik.com/free-png/20210927/lovepik-keyboard-png-image_401535282_wh1200.png"
 
   },
   {
@@ -148,20 +148,16 @@ let product = document.querySelector("#render");
 for (let i = 0; i < products.length; i++) {
    
   product.innerHTML += `
-  <div class="card" style="width: 18rem;">
-  <img src="${products[i].img}" class="card-img-top" alt="...">
-      <div class="card-body">
+  <div class="card" style="width: 18rem;  ">
+  <img src="${products[i].img}" class="card-img-top img-fluid" alt="...">
+      <div class="card-body" >
         <h5 class="card-title">${products[i].name}</h5>
         <p class="card-text"> <b> Price:</b> ${products[i].price} <br> <b>Description: </b> ${products[i].description}</p>
-        <a onclick="conso()" href="#" class="btn btn-primary">Add to cart</a>
+        <a onclick="conso(${i})" href="#" class="btn btn-primary">Add to cart</a>
       </div>
     </div>
   `
 }
-function conso() {
-  for (let i = 0; i < products.length; i++)
-  {
-      console.log(products[i]);
-  }
-
+function conso(show) {
+   console.log(products[show]);
 }
